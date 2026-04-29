@@ -1,0 +1,73 @@
+# === 密钥 & 配置 ===
+.env
+.env.local
+.env.*.local
+
+# === WorkBuddy 工作区内部文件（不属于产品代码）===
+.workbuddy/
+
+# === data/processed 下只保留 dashboard 直接用的 *_ai_opportunities_consolidated.json ===
+# 先 ignore 整个目录，再通过否定规则解锁需要的
+user-pain-dashboard/data/processed/*
+!user-pain-dashboard/data/processed/*_ai_opportunities_consolidated.json
+
+# === 原始抓取数据（太大，不上 repo）===
+user-pain-dashboard/data/raw/
+
+# === 中间产物（管线内部状态，不提交，Actions 里重跑会重新生成）===
+user-pain-dashboard/data/processed/*_candidates.json
+user-pain-dashboard/data/processed/*_atoms.json
+user-pain-dashboard/data/processed/*_atoms_sample*.json
+user-pain-dashboard/data/processed/*_clusters.json
+user-pain-dashboard/data/processed/*_clusters_sample*.json
+user-pain-dashboard/data/processed/*_labeled_clusters.json
+user-pain-dashboard/data/processed/*_labeled_clusters_sample*.json
+user-pain-dashboard/data/processed/*_merged_demands.json
+user-pain-dashboard/data/processed/incremental/
+# 注意：只保留 *_ai_opportunities_consolidated.json，它是 dashboard 直接读的
+
+# === 备份文件 ===
+user-pain-dashboard/data/processed/*backup*
+user-pain-dashboard/data/processed/*.bak
+
+# === 日志 ===
+user-pain-dashboard/logs/
+*.log
+
+# === 临时文件 ===
+/tmp/
+*.tmp
+
+# === Node ===
+node_modules/
+user-pain-dashboard/node_modules/
+user-pain-dashboard/dist/
+user-pain-dashboard/.vite/
+npm-debug.log*
+yarn-debug.log*
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# === 工作缓存（WorkBuddy 内部）===
+.workbuddy/memory/
+.workbuddy/automations/
+
+# === 系统文件 ===
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# === IDE ===
+.vscode/
+.idea/
+*.iml

@@ -1,0 +1,28 @@
+{
+  "totalReviews": 39986,
+  "channels": [
+    {
+      "id": "appstore",
+      "name": "App Store",
+      "region": "中国区",
+      "count": 19384
+    },
+    {
+      "id": "googleplay",
+      "name": "Google Play",
+      "region": "全球",
+      "count": 2794
+    },
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "region": "全球",
+      "count": 17808
+    }
+  ],
+  "timeRange": {
+    "start": "2025-04-24",
+    "end": "2026-04-24"
+  },
+  "lastUpdated": "2026-04-24T01:18:11.217262"
+}

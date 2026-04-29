@@ -1,0 +1,95 @@
+name: Weekly Demand Mining
+
+on:
+  schedule:
+    # 每周一 UTC 23:00 = 北京时间周二 7:00
+    # 注：cron 用的是 UTC。北京周一 7:00 对应 UTC 前一天 23:00，所以实际是 UTC Sunday 23:00
+    - cron: '0 23 * * 0'
+  workflow_dispatch:  # 支持手动触发
+
+jobs:
+  mine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    defaults:
+      run:
+        working-directory: user-pain-dashboard
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install sentence-transformers==5.1.2 scikit-learn==1.6.1 numpy scipy requests
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: user-pain-dashboard/package-lock.json
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Write .env from secrets
+        run: |
+          echo "DEEPSEEK_API_KEY=${{ secrets.DEEPSEEK_API_KEY }}" > ../.env
+
+      - name: Step 0 - Incremental crawl (last 14 days)
+        run: python3 scripts/crawl_incremental.py --days 14 --category all
+
+      - name: Step 1-4 - Clean & filter (incremental)
+        run: |
+          for cat in wechat social ai more; do
+            python3 scripts/pipeline_step1_4.py --category $cat --since $(date -u -d '14 days ago' +%Y-%m-%d)
+          done
+
+      - name: Step 5-8.6 - Mining pipeline
+        run: |
+          for cat in wechat social ai more; do
+            echo "=== Processing $cat ==="
+            python3 scripts/pipeline_step5_atoms.py --category $cat
+            python3 scripts/pipeline_step6_cluster.py --category $cat --distance-threshold 0.42
+            python3 scripts/pipeline_step7_label.py --category $cat
+            python3 scripts/pipeline_step8_merge.py --category $cat --sim 0.82
+            python3 scripts/pipeline_step8_6_refine.py --category $cat
+
+            # 把本批次当成"新的 demands" 放到 incremental 目录
+            cp data/processed/${cat}_merged_demands.json data/processed/incremental/${cat}_new_merged_demands.json
+          done
+
+      - name: Step 10 - Merge into main data
+        run: python3 scripts/pipeline_step10_merge_new.py --category all
+
+      - name: Build dashboard
+        env:
+          # GitHub Pages 默认路径为 /<repo>/，这里从 GITHUB_REPOSITORY 自动提取
+          VITE_BASE: /${{ github.event.repository.name }}/
+        run: npm run build
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          cd ..
+          git add user-pain-dashboard/data/processed/*_ai_opportunities_consolidated.json
+          git diff --cached --quiet || git commit -m "🤖 Weekly mining $(date -u +%Y-%m-%d)"
+          git push
+
+      - name: Deploy to Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./user-pain-dashboard/dist
+          cname: ''   # 自定义域名留空

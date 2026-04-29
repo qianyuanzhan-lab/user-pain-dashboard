@@ -1,0 +1,1827 @@
+{
+  "category": "wechat",
+  "category_name": "微信",
+  "analysis_date": "2026-04-28",
+  "generated_at": "2026-04-28T10:55:18.092642+00:00",
+  "data_sources": [
+    "appstore",
+    "googleplay"
+  ],
+  "products_analyzed": [
+    "微信"
+  ],
+  "total_reviews_analyzed": 317,
+  "total_items_analyzed": 317,
+  "pipeline": {
+    "raw_items": 800,
+    "candidate_items": 317,
+    "atoms_extracted": 369,
+    "clusters_produced": 14,
+    "final_demands": 14
+  },
+  "ranking_config": {
+    "weights": {
+      "importance": 0.3,
+      "ai_relevance": 0.4,
+      "commonality": 0.3
+    },
+    "description": "综合分 = 0.30×重要度 + 0.40×AI参与度 + 0.30×共性程度"
+  },
+  "ai_opportunities": [
+    {
+      "id": "wechat_demand_1",
+      "title": "微信朋友圈应支持批量管理、画质优化与内容编辑功能",
+      "description": "用户在朋友圈发布图片后，画质被压缩模糊，且无法修改已发布内容的文字或图片，需要批量管理、画质优化和编辑功能。",
+      "stats_label": "用户实际提及54条 | AI介入可能性5/10",
+      "ai_intervention_type": "轻量介入",
+      "user_pain_summary": "用户在朋友圈发布图片后，画质被压缩模糊，且无法修改已发布内容的文字或图片，需要批量管理、画质优化和编辑功能。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store",
+          "Google Play"
+        ],
+        "exact_match_count": 54,
+        "source_breakdown": {
+          "appstore": 53,
+          "googleplay": 1
+        },
+        "perspective_breakdown": {
+          "consumer": 54
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_-3211395859123922251",
+          "app_name": "微信",
+          "author": "垃圾QQ生气",
+          "content": "微信能不能出一个可以通过关键词查自己发过的历史朋友圈啊，这很重要！！！！",
+          "original_text": "微信能不能出一个可以通过关键词查自己发过的历史朋友圈啊，这很重要！！！！",
+          "rating": 1,
+          "date": "2026-04-19",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该支持通过关键词搜索自己发过的历史朋友圈",
+          "pain_point_extracted": "微信应该支持通过关键词搜索自己发过的历史朋友圈",
+          "sentiment_score": 0.7,
+          "relevance_score": 7.0
+        },
+        {
+          "id": "as_2732818003599886561",
+          "app_name": "微信",
+          "author": "嘿由",
+          "content": "之前朋友圈，公众号弹出，现在弄右边一窗口简直不方便到极致，产品自己不测试使用感受吗，都出了电脑屏幕了",
+          "original_text": "之前朋友圈，公众号弹出，现在弄右边一窗口简直不方便到极致，产品自己不测试使用感受吗，都出了电脑屏幕了",
+          "rating": 1,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该恢复朋友圈和公众号消息的弹出通知方式，而不是在右侧窗口显示",
+          "pain_point_extracted": "微信应该恢复朋友圈和公众号消息的弹出通知方式，而不是在右侧窗口显示",
+          "sentiment_score": 0.7,
+          "relevance_score": 7.0
+        },
+        {
+          "id": "as_7604983946447468560",
+          "app_name": "微信",
+          "author": "vivi-28",
+          "content": "微信就是因为微商搞起来的，当时新出因为能收钱能发图，来店里我都叫客户下，能看新款，现在他旺起来就翻脸了 \n搞什么影响用户体验，不想看朋友圈的人会自动屏蔽",
+          "original_text": "微信就是因为微商搞起来的，当时新出因为能收钱能发图，来店里我都叫客户下，能看新款，现在他旺起来就翻脸了 \n搞什么影响用户体验，不想看朋友圈的人会自动屏蔽",
+          "rating": 1,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该允许用户更便捷地屏蔽不想看的朋友圈内容",
+          "pain_point_extracted": "微信应该允许用户更便捷地屏蔽不想看的朋友圈内容",
+          "sentiment_score": 0.7,
+          "relevance_score": 7.0
+        },
+        {
+          "id": "as_4220729162115417428",
+          "app_name": "微信",
+          "author": "科技谁呢",
+          "content": "不是为什么现在打视频的时候没有画中画了，真的很不方便，搞死了",
+          "original_text": "不是为什么现在打视频的时候没有画中画了，真的很不方便，搞死了",
+          "rating": 1,
+          "date": "2026-04-19",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望视频通话时支持画中画功能",
+          "pain_point_extracted": "希望视频通话时支持画中画功能",
+          "sentiment_score": 0.7,
+          "relevance_score": 6.0
+        },
+        {
+          "id": "as_-3077319229727773830",
+          "app_name": "微信",
+          "author": "啊啊啊啊杨小",
+          "content": "建议朋友圈可以看到访问记录 转账直接到账",
+          "original_text": "建议朋友圈可以看到访问记录 转账直接到账",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望朋友圈可以看到访问记录",
+          "pain_point_extracted": "希望朋友圈可以看到访问记录",
+          "sentiment_score": 0.3,
+          "relevance_score": 4.0
+        }
+      ],
+      "mention_count": 54,
+      "merged_from": [
+        "wechat_c002"
+      ],
+      "ai_solution": "AI可辅助优化图片/视频压缩算法，或提供智能标签推荐与内容编辑建议。",
+      "ai_description": "AI可辅助优化图片/视频压缩算法，或提供智能标签推荐与内容编辑建议。",
+      "ai_keywords": [
+        "朋友圈",
+        "批量删除",
+        "高清画质",
+        "标签筛选",
+        "内容编辑"
+      ],
+      "ai_score": 5,
+      "user_voice": "希望微信朋友圈图片画质不压缩",
+      "sample_count": 5,
+      "demand_tier": 1,
+      "demand_type": "功能缺失",
+      "product_breakdown": {
+        "微信": 54
+      },
+      "sentiment_breakdown": {
+        "suggesting": 26,
+        "frustrated": 28
+      },
+      "cross_product_count": 1,
+      "final_score": 5.46,
+      "importance_score": 7.97,
+      "ai_relevance_score": 5,
+      "commonality_score": 3.58
+    },
+    {
+      "id": "wechat_demand_2",
+      "title": "微信应修复跨运营商通信异常、低版本兼容性及聊天记录恢复等体验问题",
+      "description": "修复跨运营商网络下的消息收发异常，兼容低版本系统登录，并优化聊天记录恢复功能，确保应用稳定运行。",
+      "stats_label": "用户实际提及226条 | AI介入可能性4/10",
+      "ai_intervention_type": "轻量介入",
+      "user_pain_summary": "修复跨运营商网络下的消息收发异常，兼容低版本系统登录，并优化聊天记录恢复功能，确保应用稳定运行。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store",
+          "Google Play"
+        ],
+        "exact_match_count": 226,
+        "source_breakdown": {
+          "appstore": 143,
+          "googleplay": 83
+        },
+        "perspective_breakdown": {
+          "consumer": 226
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_-1658055693770899586",
+          "app_name": "微信",
+          "author": "朱夏浮碧影",
+          "content": "感觉出新的聊天app吧，平板air5跟支付钱包一堆bug，首先平板点进钱包里提现的时候输入密码，，如果你用的悬浮键盘，你的页面就只有三个按键，现在改了，但是另外一个bug完全不管，人工客服装死一样，我只要一添加银行卡，我就死在那个页面，其他App我能正常用，我是可以打游戏，微信那个页面我就卡死在那个添加卡片的页面，我正常用微信的话，只有清掉后台再重新点进去，我如果再去添加卡片，还是不能用只会死",
+          "original_text": "感觉出新的聊天app吧，平板air5跟支付钱包一堆bug，首先平板点进钱包里提现的时候输入密码，，如果你用的悬浮键盘，你的页面就只有三个按键，现在改了，但是另外一个bug完全不管，人工客服装死一样，我只要一添加银行卡，我就死在那个页面，其他App我能正常用，我是可以打游戏，微信那个页面我就卡死在那个添加卡片的页面，我正常用微信的话，只有清掉后台再重新点进去，我如果再去添加卡片，还是不能用只会死",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该修复平板端添加银行卡时页面卡死的bug",
+          "pain_point_extracted": "微信应该修复平板端添加银行卡时页面卡死的bug",
+          "sentiment_score": 0.7,
+          "relevance_score": 9.0
+        },
+        {
+          "id": "as_9043061302253528489",
+          "app_name": "微信",
+          "author": "abc123。，c",
+          "content": "我的微信账号被封了 原因是我涉嫌诈骗 但我期间并没有实施过诈骗行为 反馈联系客服转人工 怎么都不让转人工 这还是我学习的账号 一时间我联系不到家人 同学 学习资料 重要表格一时间都传不过来 真的让人崩溃 而且之前从未封过 也从未提示过 这一下直接永封 真的不好 希望可以解封我的微信账号",
+          "original_text": "我的微信账号被封了 原因是我涉嫌诈骗 但我期间并没有实施过诈骗行为 反馈联系客服转人工 怎么都不让转人工 这还是我学习的账号 一时间我联系不到家人 同学 学习资料 重要表格一时间都传不过来 真的让人崩溃 而且之前从未封过 也从未提示过 这一下直接永封 真的不好 希望可以解封我的微信账号",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该提供人工客服转接渠道，解决用户申诉困难的问题",
+          "pain_point_extracted": "微信应该提供人工客服转接渠道，解决用户申诉困难的问题",
+          "sentiment_score": 0.7,
+          "relevance_score": 9.0
+        },
+        {
+          "id": "gp_6520992915719328789",
+          "app_name": "微信",
+          "author": "ALICE CHAN",
+          "content": "微信越来越垃圾了，登出后，忘记密码了，然后我用语音发Otp验证，验证完了还要我证明我是我自己才能登入微信，以前不这样的，就算忘记密码也是很容易就能登入了，现在越Update 越垃圾，搞到好象银行这样，怕人家盗窃，导致我微信旧号直接不能用了，废掉了，更本打不开，能不能重新更改过微信，好让人容易登入的，不需要那么多奇葩证明的，真的气死人",
+          "original_text": "微信越来越垃圾了，登出后，忘记密码了，然后我用语音发Otp验证，验证完了还要我证明我是我自己才能登入微信，以前不这样的，就算忘记密码也是很容易就能登入了，现在越Update 越垃圾，搞到好象银行这样，怕人家盗窃，导致我微信旧号直接不能用了，废掉了，更本打不开，能不能重新更改过微信，好让人容易登入的，不需要那么多奇葩证明的，真的气死人",
+          "rating": 1,
+          "date": "2026-03-13",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tencent.mm",
+          "source": "Google Play - 微信",
+          "relevance_note": "微信应该简化忘记密码后的身份验证流程，减少不必要的证明步骤",
+          "pain_point_extracted": "微信应该简化忘记密码后的身份验证流程，减少不必要的证明步骤",
+          "sentiment_score": 0.7,
+          "relevance_score": 9.0
+        },
+        {
+          "id": "as_1795068680699788119",
+          "app_name": "微信",
+          "author": "孤单的小虫",
+          "content": "现在微信每次更新真是越更新越恶心，上次更新出个“我的小店”功能，真正使用的有多少人？昨天更新又出个“贴图”功能，合并了服务号信息。本来之前银行方面信息会单独发送，现在合并了，想要看必须点进去，进去结果强制性更新贴图看贴图内容，真恶心！",
+          "original_text": "现在微信每次更新真是越更新越恶心，上次更新出个“我的小店”功能，真正使用的有多少人？昨天更新又出个“贴图”功能，合并了服务号信息。本来之前银行方面信息会单独发送，现在合并了，想要看必须点进去，进去结果强制性更新贴图看贴图内容，真恶心！",
+          "rating": 1,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该让用户选择是否合并服务号信息，而不是强制合并",
+          "pain_point_extracted": "微信应该让用户选择是否合并服务号信息，而不是强制合并",
+          "sentiment_score": 0.9,
+          "relevance_score": 8.5
+        },
+        {
+          "id": "as_4125109188816144640",
+          "app_name": "微信",
+          "author": "爱喵奈",
+          "content": "什么时候优化一下小程序卡死现象，不是竖屏页面不能旋转导致卡死就是横屏页面支付卡死！大哥，微信支付界面单独做个弹窗很难吗？非要原小程序网页里面，bug也不知道修一下，iPad上面各种问题都不说了，微信支付都不能用那你还不如感觉下架，天天就知道往微信里面加些没用的功能占内存",
+          "original_text": "什么时候优化一下小程序卡死现象，不是竖屏页面不能旋转导致卡死就是横屏页面支付卡死！大哥，微信支付界面单独做个弹窗很难吗？非要原小程序网页里面，bug也不知道修一下，iPad上面各种问题都不说了，微信支付都不能用那你还不如感觉下架，天天就知道往微信里面加些没用的功能占内存",
+          "rating": 1,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该修复小程序在竖屏和横屏切换时的卡死问题",
+          "pain_point_extracted": "微信应该修复小程序在竖屏和横屏切换时的卡死问题",
+          "sentiment_score": 0.7,
+          "relevance_score": 8.0
+        }
+      ],
+      "mention_count": 226,
+      "merged_from": [
+        "wechat_c001"
+      ],
+      "ai_solution": "AI可辅助分析跨运营商通信异常模式，自动检测低版本兼容性问题，并优化聊天记录恢复的智能推荐。",
+      "ai_description": "AI可辅助分析跨运营商通信异常模式，自动检测低版本兼容性问题，并优化聊天记录恢复的智能推荐。",
+      "ai_keywords": [
+        "跨运营商",
+        "低版本兼容",
+        "聊天记录恢复",
+        "公众号bug"
+      ],
+      "ai_score": 4,
+      "user_voice": "微信应该修复卡顿问题，确保应用流畅运行",
+      "sample_count": 5,
+      "demand_tier": 1,
+      "demand_type": "体验问题",
+      "product_breakdown": {
+        "微信": 226
+      },
+      "sentiment_breakdown": {
+        "frustrated": 186,
+        "suggesting": 19,
+        "angry": 21
+      },
+      "cross_product_count": 1,
+      "final_score": 5.4,
+      "importance_score": 9.07,
+      "ai_relevance_score": 4,
+      "commonality_score": 3.58
+    },
+    {
+      "id": "wechat_demand_3",
+      "title": "微信应该允许用户关闭或删除不需要的功能入口和红点提醒",
+      "description": "用户在使用微信时，被小店、卡包等不需要的功能入口和红点提醒干扰，希望直接关闭或隐藏这些入口，并去除红点提示。",
+      "stats_label": "用户实际提及12条 | AI介入可能性5/10",
+      "ai_intervention_type": "轻量介入",
+      "user_pain_summary": "用户在使用微信时，被小店、卡包等不需要的功能入口和红点提醒干扰，希望直接关闭或隐藏这些入口，并去除红点提示。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store",
+          "Google Play"
+        ],
+        "exact_match_count": 12,
+        "source_breakdown": {
+          "appstore": 11,
+          "googleplay": 1
+        },
+        "perspective_breakdown": {
+          "consumer": 12
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "gp_-2812682318875908757",
+          "app_name": "微信",
+          "author": "毛麦伽",
+          "content": "越来越臃肿了，强制推送没有用的小店，视频还不给取消隐藏，动不动就说你有风险，不安全，或者吃三鹿奶粉的那群人长大了，还跑去微信wechat给中国人添堵故意恶心大家",
+          "original_text": "越来越臃肿了，强制推送没有用的小店，视频还不给取消隐藏，动不动就说你有风险，不安全，或者吃三鹿奶粉的那群人长大了，还跑去微信wechat给中国人添堵故意恶心大家",
+          "rating": 1,
+          "date": "2026-04-19",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tencent.mm",
+          "source": "Google Play - 微信",
+          "relevance_note": "微信应该减少强制推送无用的小店内容",
+          "pain_point_extracted": "微信应该减少强制推送无用的小店内容",
+          "sentiment_score": 0.9,
+          "relevance_score": 6.0
+        },
+        {
+          "id": "as_-7316265989366255459",
+          "app_name": "微信",
+          "author": "750yuan",
+          "content": "最近更新的小店功能真是有病，一直有红点提醒还关闭不了，哪个神人想出来的破功能，趁早关了",
+          "original_text": "最近更新的小店功能真是有病，一直有红点提醒还关闭不了，哪个神人想出来的破功能，趁早关了",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信小店功能应该允许用户关闭红点提醒",
+          "pain_point_extracted": "微信小店功能应该允许用户关闭红点提醒",
+          "sentiment_score": 0.9,
+          "relevance_score": 5.5
+        },
+        {
+          "id": "as_4051219825227484153",
+          "app_name": "微信",
+          "author": "佢略也",
+          "content": "把原卡包改成为小店与卡包，导致用证件比如医保卡特别不方便，年纪大点的根本找不到",
+          "original_text": "把原卡包改成为小店与卡包，导致用证件比如医保卡特别不方便，年纪大点的根本找不到",
+          "rating": 1,
+          "date": "2026-04-17",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该保留独立的卡包功能，方便用户查找和使用证件类卡片",
+          "pain_point_extracted": "微信应该保留独立的卡包功能，方便用户查找和使用证件类卡片",
+          "sentiment_score": 0.7,
+          "relevance_score": 5.5
+        },
+        {
+          "id": "as_7443975509190794394",
+          "app_name": "微信",
+          "author": "wowhbrnkv",
+          "content": "怎么关都没选项关掉，强制推荐一些垃圾物品在哪，强迫症看着红点点都点不完，我糙伱的老冯，",
+          "original_text": "怎么关都没选项关掉，强制推荐一些垃圾物品在哪，强迫症看着红点点都点不完，我糙伱的老冯，",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "用户应该能关闭推荐功能或取消红点提示",
+          "pain_point_extracted": "用户应该能关闭推荐功能或取消红点提示",
+          "sentiment_score": 0.9,
+          "relevance_score": 5.0
+        },
+        {
+          "id": "as_-3411790719651773348",
+          "app_name": "微信",
+          "author": "笔墨潇洒",
+          "content": "拍个照就卡住了。非要把你那个状态显示出来，烦的要死，谁聊个天还看看看，看什么玩意状态",
+          "original_text": "拍个照就卡住了。非要把你那个状态显示出来，烦的要死，谁聊个天还看看看，看什么玩意状态",
+          "rating": 1,
+          "date": "2026-04-19",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该允许用户关闭或简化状态显示",
+          "pain_point_extracted": "微信应该允许用户关闭或简化状态显示",
+          "sentiment_score": 0.7,
+          "relevance_score": 5.0
+        }
+      ],
+      "mention_count": 12,
+      "merged_from": [
+        "wechat_c005"
+      ],
+      "ai_solution": "AI可分析用户行为，智能推荐可关闭的功能入口，或提供个性化界面配置建议。",
+      "ai_description": "AI可分析用户行为，智能推荐可关闭的功能入口，或提供个性化界面配置建议。",
+      "ai_keywords": [
+        "关闭功能",
+        "删除入口",
+        "红点提醒",
+        "界面简洁",
+        "个性化设置"
+      ],
+      "ai_score": 5,
+      "user_voice": "微信应该提供关闭小店与卡包小红点提示的设置",
+      "sample_count": 5,
+      "demand_tier": 1,
+      "demand_type": "功能缺失",
+      "product_breakdown": {
+        "微信": 12
+      },
+      "sentiment_breakdown": {
+        "frustrated": 5,
+        "angry": 7
+      },
+      "cross_product_count": 1,
+      "final_score": 5.28,
+      "importance_score": 7.37,
+      "ai_relevance_score": 5,
+      "commonality_score": 3.58
+    },
+    {
+      "id": "wechat_demand_4",
+      "title": "微信语音通话质量应提升，并支持语音消息转发",
+      "description": "用户在语音通话中常遇到声音传输异常，且无法转发语音消息，需提升通话稳定性并支持语音消息转发功能。",
+      "stats_label": "用户实际提及12条 | AI介入可能性6/10",
+      "ai_intervention_type": "轻量介入",
+      "user_pain_summary": "用户在语音通话中常遇到声音传输异常，且无法转发语音消息，需提升通话稳定性并支持语音消息转发功能。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store",
+          "Google Play"
+        ],
+        "exact_match_count": 12,
+        "source_breakdown": {
+          "appstore": 10,
+          "googleplay": 2
+        },
+        "perspective_breakdown": {
+          "consumer": 12
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_1265364568524519182",
+          "app_name": "微信",
+          "author": "好的策划",
+          "content": "群聊语音对话怎么不可以转文字了，以前别人发的语音可以转文字看的，现在没有了",
+          "original_text": "群聊语音对话怎么不可以转文字了，以前别人发的语音可以转文字看的，现在没有了",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "群聊语音消息应该支持转文字功能",
+          "pain_point_extracted": "群聊语音消息应该支持转文字功能",
+          "sentiment_score": 0.7,
+          "relevance_score": 6.5
+        },
+        {
+          "id": "as_5887006872213133763",
+          "app_name": "微信",
+          "author": "wannyuan",
+          "content": "语音输入按钮在聊天框影响打字，容易误触，无法关闭",
+          "original_text": "语音输入按钮在聊天框影响打字，容易误触，无法关闭",
+          "rating": 1,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "语音输入按钮应该可以关闭或移动位置，避免误触",
+          "pain_point_extracted": "语音输入按钮应该可以关闭或移动位置，避免误触",
+          "sentiment_score": 0.7,
+          "relevance_score": 4.0
+        },
+        {
+          "id": "as_-8961240427140518012",
+          "app_name": "微信",
+          "author": "cai大宇",
+          "content": "语言打字不能切换粤语跟那个普通话的，不好用",
+          "original_text": "语言打字不能切换粤语跟那个普通话的，不好用",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望语言打字支持粤语和普通话切换",
+          "pain_point_extracted": "希望语言打字支持粤语和普通话切换",
+          "sentiment_score": 0.7,
+          "relevance_score": 3.5
+        },
+        {
+          "id": "as_4209670284250176049",
+          "app_name": "微信",
+          "author": "Mr.醉红颜",
+          "content": "聊天记录已删除，但是语音通话记录还在carplay中显示",
+          "original_text": "聊天记录已删除，但是语音通话记录还在carplay中显示",
+          "rating": 1,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望删除聊天记录后，语音通话记录也能同步从CarPlay中移除",
+          "pain_point_extracted": "希望删除聊天记录后，语音通话记录也能同步从CarPlay中移除",
+          "sentiment_score": 0.7,
+          "relevance_score": 3.0
+        },
+        {
+          "id": "gp_4654382468495672076",
+          "app_name": "微信",
+          "author": "拾玖",
+          "content": "是很方便用于聊天等等，但是转发不了语音之前是可以的可是现在是完全转发不了了已上诉了也是不能",
+          "original_text": "是很方便用于聊天等等，但是转发不了语音之前是可以的可是现在是完全转发不了了已上诉了也是不能",
+          "rating": 2,
+          "date": "2026-03-30",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tencent.mm",
+          "source": "Google Play - 微信",
+          "relevance_note": "微信应该支持转发语音消息",
+          "pain_point_extracted": "微信应该支持转发语音消息",
+          "sentiment_score": 0.7,
+          "relevance_score": 7.0
+        }
+      ],
+      "mention_count": 12,
+      "merged_from": [
+        "wechat_c003"
+      ],
+      "ai_solution": "AI可用于语音降噪、回声消除、自动增益控制等音频处理，提升通话质量。",
+      "ai_description": "AI可用于语音降噪、回声消除、自动增益控制等音频处理，提升通话质量。",
+      "ai_keywords": [
+        "语音通话",
+        "清晰度",
+        "降噪",
+        "语音消息转发"
+      ],
+      "ai_score": 6,
+      "user_voice": "微信应该支持转发语音消息",
+      "sample_count": 5,
+      "demand_tier": 2,
+      "demand_type": "体验问题",
+      "product_breakdown": {
+        "微信": 12
+      },
+      "sentiment_breakdown": {
+        "suggesting": 2,
+        "frustrated": 10
+      },
+      "cross_product_count": 1,
+      "final_score": 5.26,
+      "importance_score": 5.96,
+      "ai_relevance_score": 6,
+      "commonality_score": 3.58
+    },
+    {
+      "id": "wechat_demand_5",
+      "title": "微信支付功能应增强资金管理与通知能力",
+      "description": "在余额不足时，微信支付应提供清晰提示并引导充值；同时，钱包需显示更多余额，并增加转账通知功能，仅限本人操作余额更改，以及支持好友共同存钱。",
+      "stats_label": "用户实际提及10条 | AI介入可能性5/10",
+      "ai_intervention_type": "轻量介入",
+      "user_pain_summary": "在余额不足时，微信支付应提供清晰提示并引导充值；同时，钱包需显示更多余额，并增加转账通知功能，仅限本人操作余额更改，以及支持好友共同存钱。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store",
+          "Google Play"
+        ],
+        "exact_match_count": 10,
+        "source_breakdown": {
+          "appstore": 8,
+          "googleplay": 2
+        },
+        "perspective_breakdown": {
+          "consumer": 10
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_4125109188816144640",
+          "app_name": "微信",
+          "author": "爱喵奈",
+          "content": "什么时候优化一下小程序卡死现象，不是竖屏页面不能旋转导致卡死就是横屏页面支付卡死！大哥，微信支付界面单独做个弹窗很难吗？非要原小程序网页里面，bug也不知道修一下，iPad上面各种问题都不说了，微信支付都不能用那你还不如感觉下架，天天就知道往微信里面加些没用的功能占内存",
+          "original_text": "什么时候优化一下小程序卡死现象，不是竖屏页面不能旋转导致卡死就是横屏页面支付卡死！大哥，微信支付界面单独做个弹窗很难吗？非要原小程序网页里面，bug也不知道修一下，iPad上面各种问题都不说了，微信支付都不能用那你还不如感觉下架，天天就知道往微信里面加些没用的功能占内存",
+          "rating": 1,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信支付界面应该单独做成弹窗，而不是嵌套在小程序页面中",
+          "pain_point_extracted": "微信支付界面应该单独做成弹窗，而不是嵌套在小程序页面中",
+          "sentiment_score": 0.7,
+          "relevance_score": 8.0
+        },
+        {
+          "id": "as_4213744536748983863",
+          "app_name": "微信",
+          "author": "午夜伤感的带刺玫瑰",
+          "content": "微信支付花我钱 每天都会扣走 还有微信钱包 别人微信钱包都好几万上千万 我微信天天就几毛钱 微信信息别人天天能收到转账 我天天连个信息都没有 唯一的信息还是微信支付花我钱的信息",
+          "original_text": "微信支付花我钱 每天都会扣走 还有微信钱包 别人微信钱包都好几万上千万 我微信天天就几毛钱 微信信息别人天天能收到转账 我天天连个信息都没有 唯一的信息还是微信支付花我钱的信息",
+          "rating": 1,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信钱包应该显示更多余额",
+          "pain_point_extracted": "微信钱包应该显示更多余额",
+          "sentiment_score": 0.7,
+          "relevance_score": 6.0
+        },
+        {
+          "id": "as_3402349673533981728",
+          "app_name": "微信",
+          "author": "王   博",
+          "content": "为什么更新完以后，用微信人脸支付成功后，没有支付钉的一声反馈了",
+          "original_text": "为什么更新完以后，用微信人脸支付成功后，没有支付钉的一声反馈了",
+          "rating": 1,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信人脸支付成功后应该有声音反馈",
+          "pain_point_extracted": "微信人脸支付成功后应该有声音反馈",
+          "sentiment_score": 0.7,
+          "relevance_score": 5.5
+        },
+        {
+          "id": "as_-3077319229727773830",
+          "app_name": "微信",
+          "author": "啊啊啊啊杨小",
+          "content": "建议朋友圈可以看到访问记录 转账直接到账",
+          "original_text": "建议朋友圈可以看到访问记录 转账直接到账",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望转账直接到账",
+          "pain_point_extracted": "希望转账直接到账",
+          "sentiment_score": 0.3,
+          "relevance_score": 4.0
+        },
+        {
+          "id": "gp_4289037443211207701",
+          "app_name": "微信",
+          "author": "zen glisin",
+          "content": "为什么微信支付没办法拉起了，尼玛要命啊，之前还没有的",
+          "original_text": "为什么微信支付没办法拉起了，尼玛要命啊，之前还没有的",
+          "rating": 1,
+          "date": "2026-04-10",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tencent.mm",
+          "source": "Google Play - 微信",
+          "relevance_note": "微信支付应该能够正常拉起",
+          "pain_point_extracted": "微信支付应该能够正常拉起",
+          "sentiment_score": 0.7,
+          "relevance_score": 4.0
+        }
+      ],
+      "mention_count": 10,
+      "merged_from": [
+        "wechat_c006"
+      ],
+      "ai_solution": "AI可辅助优化支付流程中的智能提示与通知，如余额不足时引导充值、转账通知的语义生成。",
+      "ai_description": "AI可辅助优化支付流程中的智能提示与通知，如余额不足时引导充值、转账通知的语义生成。",
+      "ai_keywords": [
+        "微信支付",
+        "资金管理",
+        "转账通知",
+        "余额提示",
+        "共同存钱"
+      ],
+      "ai_score": 5,
+      "user_voice": "微信支付在余额不足时应提供更清晰的提示或引导充值",
+      "sample_count": 5,
+      "demand_tier": 1,
+      "demand_type": "功能缺失",
+      "product_breakdown": {
+        "微信": 10
+      },
+      "sentiment_breakdown": {
+        "frustrated": 7,
+        "suggesting": 3
+      },
+      "cross_product_count": 1,
+      "final_score": 5.04,
+      "importance_score": 6.57,
+      "ai_relevance_score": 5,
+      "commonality_score": 3.58
+    },
+    {
+      "id": "wechat_demand_6",
+      "title": "微信应该提供全局字体大小调节选项",
+      "description": "在阅读公众号文章或聊天时，用户因默认字体过小导致阅读困难，需要全局字体大小调节选项来统一调整所有界面的文字大小。",
+      "stats_label": "用户实际提及6条 | AI介入可能性5/10",
+      "ai_intervention_type": "轻量介入",
+      "user_pain_summary": "在阅读公众号文章或聊天时，用户因默认字体过小导致阅读困难，需要全局字体大小调节选项来统一调整所有界面的文字大小。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store",
+          "Google Play"
+        ],
+        "exact_match_count": 6,
+        "source_breakdown": {
+          "appstore": 5,
+          "googleplay": 1
+        },
+        "perspective_breakdown": {
+          "consumer": 6
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_-3350858358783296633",
+          "app_name": "微信",
+          "author": "冯圣涵",
+          "content": "这个软件里手写根本不可以用，写得再好看扫出来的这个字那个字，就没有真正对的字",
+          "original_text": "这个软件里手写根本不可以用，写得再好看扫出来的这个字那个字，就没有真正对的字",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "手写输入应该提高识别准确率",
+          "pain_point_extracted": "手写输入应该提高识别准确率",
+          "sentiment_score": 0.7,
+          "relevance_score": 5.5
+        },
+        {
+          "id": "as_-726769251953462471",
+          "app_name": "微信",
+          "author": "顺便把相机大舅",
+          "content": "这文字识别能不能改改啊 听不出来就别识别了呗",
+          "original_text": "这文字识别能不能改改啊 听不出来就别识别了呗",
+          "rating": 1,
+          "date": "2026-04-19",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望文字识别功能在不确定时不要输出结果",
+          "pain_point_extracted": "希望文字识别功能在不确定时不要输出结果",
+          "sentiment_score": 0.7,
+          "relevance_score": 4.0
+        },
+        {
+          "id": "as_7071038212083659934",
+          "app_name": "微信",
+          "author": "都来看1111",
+          "content": "点进入公众号怎么会设计这么小的文字，还得一篇文章一设置字体",
+          "original_text": "点进入公众号怎么会设计这么小的文字，还得一篇文章一设置字体",
+          "rating": 1,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "公众号文章进入后默认字体应该更大，或者提供全局字体设置选项",
+          "pain_point_extracted": "公众号文章进入后默认字体应该更大，或者提供全局字体设置选项",
+          "sentiment_score": 0.7,
+          "relevance_score": 3.0
+        },
+        {
+          "id": "gp_-4689284340461771264",
+          "app_name": "微信",
+          "author": "Keong Sin",
+          "content": "微信兄弟帮帮忙你们的升级在收藏那里写了的字可以不要空咯那么长吗？上下空间距离很多,以前那个好用哦”",
+          "original_text": "微信兄弟帮帮忙你们的升级在收藏那里写了的字可以不要空咯那么长吗？上下空间距离很多,以前那个好用哦”",
+          "rating": 3,
+          "date": "2026-03-07",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tencent.mm",
+          "source": "Google Play - 微信",
+          "relevance_note": "收藏功能中文字上下间距应该缩小",
+          "pain_point_extracted": "收藏功能中文字上下间距应该缩小",
+          "sentiment_score": 0.7,
+          "relevance_score": 6.0
+        },
+        {
+          "id": "as_4284203961306049528",
+          "app_name": "微信",
+          "author": "崇蕴意难平",
+          "content": "宝子能不能把字数限制去了 很影响我跟我对象暧昧",
+          "original_text": "宝子能不能把字数限制去了 很影响我跟我对象暧昧",
+          "rating": 3,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望去除字数限制",
+          "pain_point_extracted": "希望去除字数限制",
+          "sentiment_score": 0.7,
+          "relevance_score": 4.5
+        }
+      ],
+      "mention_count": 6,
+      "merged_from": [
+        "wechat_c009"
+      ],
+      "ai_solution": "AI可分析用户阅读习惯，智能推荐字体大小，或通过OCR优化文字识别准确率。",
+      "ai_description": "AI可分析用户阅读习惯，智能推荐字体大小，或通过OCR优化文字识别准确率。",
+      "ai_keywords": [
+        "字体大小",
+        "全局设置",
+        "文字识别",
+        "阅读体验"
+      ],
+      "ai_score": 5,
+      "user_voice": "希望文字识别功能在不确定时不要输出结果",
+      "sample_count": 5,
+      "demand_tier": 1,
+      "demand_type": "功能缺失",
+      "product_breakdown": {
+        "微信": 6
+      },
+      "sentiment_breakdown": {
+        "frustrated": 6
+      },
+      "cross_product_count": 1,
+      "final_score": 4.84,
+      "importance_score": 5.88,
+      "ai_relevance_score": 5,
+      "commonality_score": 3.58
+    },
+    {
+      "id": "wechat_demand_7",
+      "title": "希望微信提供更多内容推荐和社交功能的隐私控制选项",
+      "description": "在浏览内容推荐和社交互动时，用户希望关闭朋友看过/点赞/转发的推荐显示，减少不想看的内容，并取消推荐联系人时的来源提示。",
+      "stats_label": "用户实际提及12条 | AI介入可能性5/10",
+      "ai_intervention_type": "轻量介入",
+      "user_pain_summary": "在浏览内容推荐和社交互动时，用户希望关闭朋友看过/点赞/转发的推荐显示，减少不想看的内容，并取消推荐联系人时的来源提示。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store"
+        ],
+        "exact_match_count": 12,
+        "source_breakdown": {
+          "appstore": 12
+        },
+        "perspective_breakdown": {
+          "consumer": 12
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_4478521819237092744",
+          "app_name": "微信",
+          "author": "大洲洲洲",
+          "content": "微信里的看一看总是出一些很恶心的内容 每次不小心点开都很反感 很多密集的照片",
+          "original_text": "微信里的看一看总是出一些很恶心的内容 每次不小心点开都很反感 很多密集的照片",
+          "rating": 1,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "看一看应该过滤掉令人反感的内容",
+          "pain_point_extracted": "看一看应该过滤掉令人反感的内容",
+          "sentiment_score": 0.7,
+          "relevance_score": 6.0
+        },
+        {
+          "id": "as_3651268515358726481",
+          "app_name": "微信",
+          "author": "怜你悲观恋痛",
+          "content": "为啥每次内测都不带我玩什么意思 要么统一要么都别上",
+          "original_text": "为啥每次内测都不带我玩什么意思 要么统一要么都别上",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信内测功能应该对所有用户统一开放或都不开放",
+          "pain_point_extracted": "微信内测功能应该对所有用户统一开放或都不开放",
+          "sentiment_score": 0.7,
+          "relevance_score": 3.5
+        },
+        {
+          "id": "as_3476253487665049500",
+          "app_name": "微信",
+          "author": "sentinle",
+          "content": "一直推送 且没办法关闭公众号 真恶心 垃圾",
+          "original_text": "一直推送 且没办法关闭公众号 真恶心 垃圾",
+          "rating": 1,
+          "date": "2026-04-19",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "用户希望可以关闭公众号推送",
+          "pain_point_extracted": "用户希望可以关闭公众号推送",
+          "sentiment_score": 0.9,
+          "relevance_score": 3.5
+        },
+        {
+          "id": "as_-5422759565836705180",
+          "app_name": "微信",
+          "author": "Yiiau_814",
+          "content": "为啥每次内测都没有我呀！我也想体验折叠发图等功能",
+          "original_text": "为啥每次内测都没有我呀！我也想体验折叠发图等功能",
+          "rating": 1,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望内测资格能覆盖更多用户",
+          "pain_point_extracted": "希望内测资格能覆盖更多用户",
+          "sentiment_score": 0.7,
+          "relevance_score": 3.5
+        },
+        {
+          "id": "as_6395657502242476189",
+          "app_name": "微信",
+          "author": "松之一",
+          "content": "公众号一直推过来，没关注也推，有点恶心。",
+          "original_text": "公众号一直推过来，没关注也推，有点恶心。",
+          "rating": 1,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "公众号应该只推送已关注的内容，未关注的公众号不应推送",
+          "pain_point_extracted": "公众号应该只推送已关注的内容，未关注的公众号不应推送",
+          "sentiment_score": 0.7,
+          "relevance_score": 3.5
+        }
+      ],
+      "mention_count": 12,
+      "merged_from": [
+        "wechat_c004"
+      ],
+      "ai_solution": "AI可分析用户行为，智能推荐隐私设置选项，或提供个性化隐私配置建议。",
+      "ai_description": "AI可分析用户行为，智能推荐隐私设置选项，或提供个性化隐私配置建议。",
+      "ai_keywords": [
+        "隐私控制",
+        "推荐设置",
+        "社交推荐",
+        "内测开放"
+      ],
+      "ai_score": 5,
+      "user_voice": "希望关闭朋友看过或点赞或转发的推荐功能",
+      "sample_count": 5,
+      "demand_tier": 1,
+      "demand_type": "功能缺失",
+      "product_breakdown": {
+        "微信": 12
+      },
+      "sentiment_breakdown": {
+        "frustrated": 9,
+        "angry": 2,
+        "suggesting": 1
+      },
+      "cross_product_count": 1,
+      "final_score": 4.7,
+      "importance_score": 6.92,
+      "ai_relevance_score": 5,
+      "commonality_score": 2.08
+    },
+    {
+      "id": "wechat_demand_8",
+      "title": "微信头像功能存在加载异常且不支持动态图",
+      "description": "用户在设置或查看微信头像时，遇到静态图加载失败或动态图无法显示的问题，期望头像能正常加载并支持动态效果。",
+      "stats_label": "用户实际提及2条 | AI介入可能性5/10",
+      "ai_intervention_type": "轻量介入",
+      "user_pain_summary": "用户在设置或查看微信头像时，遇到静态图加载失败或动态图无法显示的问题，期望头像能正常加载并支持动态效果。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store",
+          "Google Play"
+        ],
+        "exact_match_count": 2,
+        "source_breakdown": {
+          "appstore": 1,
+          "googleplay": 1
+        },
+        "perspective_breakdown": {
+          "consumer": 2
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_-6915009882169751975",
+          "app_name": "微信",
+          "author": "非常期待58有惊喜不断推出新工作",
+          "content": "微信啥时候出个功能动态图当头像啊我想用动态图了差评微信不怎么好用，动态图头像什么时候出啊微信软件功能不好用有点差。",
+          "original_text": "微信啥时候出个功能动态图当头像啊我想用动态图了差评微信不怎么好用，动态图头像什么时候出啊微信软件功能不好用有点差。",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该支持动态图作为头像",
+          "pain_point_extracted": "微信应该支持动态图作为头像",
+          "sentiment_score": 0.7,
+          "relevance_score": 6.0
+        },
+        {
+          "id": "gp_-5201653196371573613",
+          "app_name": "微信",
+          "author": "茹志博",
+          "content": "更新完群成员头像加载不出来，返回的时候画面会卡bug",
+          "original_text": "更新完群成员头像加载不出来，返回的时候画面会卡bug",
+          "rating": 1,
+          "date": "2026-04-02",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tencent.mm",
+          "source": "Google Play - 微信",
+          "relevance_note": "群成员头像应该正常加载",
+          "pain_point_extracted": "群成员头像应该正常加载",
+          "sentiment_score": 0.7,
+          "relevance_score": 3.0
+        }
+      ],
+      "mention_count": 2,
+      "merged_from": [
+        "wechat_c014"
+      ],
+      "ai_solution": "AI可用于优化头像加载策略，如预加载、智能缓存，或辅助检测动态图格式兼容性。",
+      "ai_description": "AI可用于优化头像加载策略，如预加载、智能缓存，或辅助检测动态图格式兼容性。",
+      "ai_keywords": [
+        "头像加载",
+        "动态头像",
+        "微信"
+      ],
+      "ai_score": 5,
+      "user_voice": "微信应该支持动态图作为头像",
+      "sample_count": 2,
+      "demand_tier": 1,
+      "demand_type": "功能缺失",
+      "product_breakdown": {
+        "微信": 2
+      },
+      "sentiment_breakdown": {
+        "frustrated": 2
+      },
+      "cross_product_count": 1,
+      "final_score": 4.63,
+      "importance_score": 5.2,
+      "ai_relevance_score": 5,
+      "commonality_score": 3.58
+    },
+    {
+      "id": "wechat_demand_9",
+      "title": "微信应提供群聊管理及隐私控制功能",
+      "description": "用户作为群主或成员，应能查看并解散自己创建的群聊，自主决定是否被拉入群聊，并限制通讯录好友私自拉群，同时统一管理临时群聊，降低加群验证门槛。",
+      "stats_label": "用户实际提及6条 | AI介入可能性5/10",
+      "ai_intervention_type": "轻量介入",
+      "user_pain_summary": "用户作为群主或成员，应能查看并解散自己创建的群聊，自主决定是否被拉入群聊，并限制通讯录好友私自拉群，同时统一管理临时群聊，降低加群验证门槛。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store",
+          "Google Play"
+        ],
+        "exact_match_count": 6,
+        "source_breakdown": {
+          "appstore": 5,
+          "googleplay": 1
+        },
+        "perspective_breakdown": {
+          "consumer": 6
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "gp_-128647904719580006",
+          "app_name": "微信",
+          "author": "Jenny Lau",
+          "content": "。。。要加什么群都会提示要别人帮忙验证，帮忙人还得满足条件",
+          "original_text": "。。。要加什么群都会提示要别人帮忙验证，帮忙人还得满足条件",
+          "rating": 1,
+          "date": "2026-03-25",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tencent.mm",
+          "source": "Google Play - 微信",
+          "relevance_note": "希望加群时不需要他人验证或降低验证门槛",
+          "pain_point_extracted": "希望加群时不需要他人验证或降低验证门槛",
+          "sentiment_score": 0.7,
+          "relevance_score": 3.0
+        },
+        {
+          "id": "as_5892163208711606814",
+          "app_name": "微信",
+          "author": "Cty。",
+          "content": "1、希望能够增加个人朋友圈搜索关键词定位到具体内容；2、发表后的朋友圈增加编辑功能，可以直接再次发布；3、无法查看自己所建群聊，想要解除群很麻烦。",
+          "original_text": "1、希望能够增加个人朋友圈搜索关键词定位到具体内容；2、发表后的朋友圈增加编辑功能，可以直接再次发布；3、无法查看自己所建群聊，想要解除群很麻烦。",
+          "rating": 3,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "应能查看自己所建群聊并方便解除群",
+          "pain_point_extracted": "应能查看自己所建群聊并方便解除群",
+          "sentiment_score": 0.7,
+          "relevance_score": 7.5
+        },
+        {
+          "id": "as_3302913023156327496",
+          "app_name": "微信",
+          "author": "no🧥",
+          "content": "群聊里的群收款能不能改为自动提醒凭什么要发起人提醒啊………",
+          "original_text": "群聊里的群收款能不能改为自动提醒凭什么要发起人提醒啊………",
+          "rating": 3,
+          "date": "2026-04-19",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "群聊里的群收款应该自动提醒，而不是由发起人手动提醒",
+          "pain_point_extracted": "群聊里的群收款应该自动提醒，而不是由发起人手动提醒",
+          "sentiment_score": 0.7,
+          "relevance_score": 4.0
+        },
+        {
+          "id": "as_5500266043220423404",
+          "app_name": "微信",
+          "author": "wx忠实用户",
+          "content": "能否提供选项限制通讯录好友私自拉取群聊问题 该问题涉及用户隐私以及传销诈骗 希望官方能提供一个可选的设置",
+          "original_text": "能否提供选项限制通讯录好友私自拉取群聊问题 该问题涉及用户隐私以及传销诈骗 希望官方能提供一个可选的设置",
+          "rating": 4,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望微信提供选项限制通讯录好友私自拉取群聊",
+          "pain_point_extracted": "希望微信提供选项限制通讯录好友私自拉取群聊",
+          "sentiment_score": 0.7,
+          "relevance_score": 6.5
+        },
+        {
+          "id": "as_-6347634127248934638",
+          "app_name": "微信",
+          "author": "AliAliAli1224",
+          "content": "开发可统一管理临时建立的群聊功能吧！乱八七糟的客户群只能在聊天记录框中查找，还可能一不小心删掉。。。",
+          "original_text": "开发可统一管理临时建立的群聊功能吧！乱八七糟的客户群只能在聊天记录框中查找，还可能一不小心删掉。。。",
+          "rating": 5,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该提供统一管理临时群聊的功能",
+          "pain_point_extracted": "微信应该提供统一管理临时群聊的功能",
+          "sentiment_score": 0.7,
+          "relevance_score": 6.0
+        }
+      ],
+      "mention_count": 6,
+      "merged_from": [
+        "wechat_c008"
+      ],
+      "ai_solution": "AI可辅助识别临时群聊、推荐群聊管理策略，或智能处理加群验证请求。",
+      "ai_description": "AI可辅助识别临时群聊、推荐群聊管理策略，或智能处理加群验证请求。",
+      "ai_keywords": [
+        "群聊管理",
+        "隐私控制",
+        "加群验证"
+      ],
+      "ai_score": 5,
+      "user_voice": "应能查看自己所建群聊并方便解除群",
+      "sample_count": 5,
+      "demand_tier": 1,
+      "demand_type": "功能缺失",
+      "product_breakdown": {
+        "微信": 6
+      },
+      "sentiment_breakdown": {
+        "frustrated": 5,
+        "suggesting": 1
+      },
+      "cross_product_count": 1,
+      "final_score": 4.61,
+      "importance_score": 5.12,
+      "ai_relevance_score": 5,
+      "commonality_score": 3.58
+    },
+    {
+      "id": "wechat_demand_10",
+      "title": "视频号应优化内容管理与交互功能",
+      "description": "用户举报诈骗账号后未获处理，且内容审核不严导致不良内容传播；同时缺乏手动刷新、赞类型区分及私人号广告屏蔽功能，影响使用体验。",
+      "stats_label": "用户实际提及5条 | AI介入可能性5/10",
+      "ai_intervention_type": "轻量介入",
+      "user_pain_summary": "用户举报诈骗账号后未获处理，且内容审核不严导致不良内容传播；同时缺乏手动刷新、赞类型区分及私人号广告屏蔽功能，影响使用体验。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store"
+        ],
+        "exact_match_count": 5,
+        "source_breakdown": {
+          "appstore": 5
+        },
+        "perspective_breakdown": {
+          "consumer": 5
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_2838223667156252010",
+          "app_name": "微信",
+          "author": "拳打腾讯脚踩天游",
+          "content": "微信这死人视频号能不能出个刷新页面的操作啊 老看那些不感兴趣的又刷新不了新内容",
+          "original_text": "微信这死人视频号能不能出个刷新页面的操作啊 老看那些不感兴趣的又刷新不了新内容",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望视频号提供手动刷新页面的功能",
+          "pain_point_extracted": "希望视频号提供手动刷新页面的功能",
+          "sentiment_score": 0.7,
+          "relevance_score": 6.0
+        },
+        {
+          "id": "as_2479588153871929282",
+          "app_name": "微信",
+          "author": "sljdpakd",
+          "content": "投诉了很多次没有一个有回应，一星也不想给，视频号环境很差，给社会带来严重不良影响",
+          "original_text": "投诉了很多次没有一个有回应，一星也不想给，视频号环境很差，给社会带来严重不良影响",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "视频号应该改善内容审核机制，减少不良影响",
+          "pain_point_extracted": "视频号应该改善内容审核机制，减少不良影响",
+          "sentiment_score": 0.7,
+          "relevance_score": 5.5
+        },
+        {
+          "id": "as_6811108452834542886",
+          "app_name": "微信",
+          "author": "jjeiebcbwgsvb",
+          "content": "那么多人被骗钱举报了视频号也没见处理账号，继续吧我一点也不苦一点也不累",
+          "original_text": "那么多人被骗钱举报了视频号也没见处理账号，继续吧我一点也不苦一点也不累",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "视频号应该处理被举报的诈骗账号",
+          "pain_point_extracted": "视频号应该处理被举报的诈骗账号",
+          "sentiment_score": 0.7,
+          "relevance_score": 5.0
+        },
+        {
+          "id": "as_-2723331219858588526",
+          "app_name": "微信",
+          "author": "ken.ye",
+          "content": "视频号私人号还要硬插广告，真是狗，腾讯离死不远了。",
+          "original_text": "视频号私人号还要硬插广告，真是狗，腾讯离死不远了。",
+          "rating": 1,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "视频号私人号不应该插入广告",
+          "pain_point_extracted": "视频号私人号不应该插入广告",
+          "sentiment_score": 0.9,
+          "relevance_score": 3.0
+        },
+        {
+          "id": "as_-2610778291470859268",
+          "app_name": "微信",
+          "author": "阿鳶鳶鳶",
+          "content": "能不能在视频号中私密赞和公开赞间加一个问号键！！我很需要这个功能谢谢",
+          "original_text": "能不能在视频号中私密赞和公开赞间加一个问号键！！我很需要这个功能谢谢",
+          "rating": 5,
+          "date": "2026-04-19",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "视频号应该增加一个问号键，用于区分私密赞和公开赞",
+          "pain_point_extracted": "视频号应该增加一个问号键，用于区分私密赞和公开赞",
+          "sentiment_score": 0.3,
+          "relevance_score": 6.0
+        }
+      ],
+      "mention_count": 5,
+      "merged_from": [
+        "wechat_c011"
+      ],
+      "ai_solution": "AI可辅助内容审核（如识别诈骗账号）和推荐个性化广告策略。",
+      "ai_description": "AI可辅助内容审核（如识别诈骗账号）和推荐个性化广告策略。",
+      "ai_keywords": [
+        "视频号",
+        "内容审核",
+        "点赞区分",
+        "手动刷新",
+        "广告控制"
+      ],
+      "ai_score": 5,
+      "user_voice": "视频号应该处理被举报的诈骗账号",
+      "sample_count": 5,
+      "demand_tier": 1,
+      "demand_type": "功能缺失",
+      "product_breakdown": {
+        "微信": 5
+      },
+      "sentiment_breakdown": {
+        "frustrated": 3,
+        "suggesting": 1,
+        "angry": 1
+      },
+      "cross_product_count": 1,
+      "final_score": 4.37,
+      "importance_score": 5.81,
+      "ai_relevance_score": 5,
+      "commonality_score": 2.08
+    },
+    {
+      "id": "wechat_demand_11",
+      "title": "微信折叠列表应优化交互与信息展示，避免重要消息被淹没",
+      "description": "用户在折叠列表中查看消息时，因缺乏筛选和区分机制，导致重要通知（如银行卡消费、服务号消息）被淹没，且删除好友后列表跳转不合理，需优化交互以提升信息定位效率。",
+      "stats_label": "用户实际提及5条 | AI介入可能性5/10",
+      "ai_intervention_type": "轻量介入",
+      "user_pain_summary": "用户在折叠列表中查看消息时，因缺乏筛选和区分机制，导致重要通知（如银行卡消费、服务号消息）被淹没，且删除好友后列表跳转不合理，需优化交互以提升信息定位效率。",
+      "priority": "P2",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store"
+        ],
+        "exact_match_count": 5,
+        "source_breakdown": {
+          "appstore": 5
+        },
+        "perspective_breakdown": {
+          "consumer": 5
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_2277969985673994416",
+          "app_name": "微信",
+          "author": "则吗ddd",
+          "content": "对于一分钟发布十几20条朋友圈的用户可以进行折叠，这个大家都支持，但是折叠功能误伤了我们这些正常发布消息的个体户，我们一小时甚至两小时发一条，一天发不到10条消息也被折叠，生意直接缩水一半。几乎所有的钱都存在微信，信任微信，为什么不能给我们个体户一点活路呢。",
+          "original_text": "对于一分钟发布十几20条朋友圈的用户可以进行折叠，这个大家都支持，但是折叠功能误伤了我们这些正常发布消息的个体户，我们一小时甚至两小时发一条，一天发不到10条消息也被折叠，生意直接缩水一半。几乎所有的钱都存在微信，信任微信，为什么不能给我们个体户一点活路呢。",
+          "rating": 1,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该区分高频刷屏用户与正常发布频率的个体户，避免误伤正常商业信息展示",
+          "pain_point_extracted": "微信应该区分高频刷屏用户与正常发布频率的个体户，避免误伤正常商业信息展示",
+          "sentiment_score": 0.7,
+          "relevance_score": 8.5
+        },
+        {
+          "id": "as_6903524633636356993",
+          "app_name": "微信",
+          "author": "不愿透露姓名的消息人士",
+          "content": "快递银行卡消费信息被折叠，大面积展示不想看的内容，真垃圾。",
+          "original_text": "快递银行卡消费信息被折叠，大面积展示不想看的内容，真垃圾。",
+          "rating": 1,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望微信不折叠快递银行卡消费信息",
+          "pain_point_extracted": "希望微信不折叠快递银行卡消费信息",
+          "sentiment_score": 0.9,
+          "relevance_score": 3.0
+        },
+        {
+          "id": "as_-2278106291673559156",
+          "app_name": "微信",
+          "author": "官方认证实名",
+          "content": "新版本不好用，那些关注的服务号全部收纳折叠了，有时候银行卡信用卡使用之后收到的信息被收纳在服务号了没有及时看到，存在隐患，希望有关部门整改一下",
+          "original_text": "新版本不好用，那些关注的服务号全部收纳折叠了，有时候银行卡信用卡使用之后收到的信息被收纳在服务号了没有及时看到，存在隐患，希望有关部门整改一下",
+          "rating": 3,
+          "date": "2026-04-19",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望服务号消息不被折叠，重要交易通知能及时显示",
+          "pain_point_extracted": "希望服务号消息不被折叠，重要交易通知能及时显示",
+          "sentiment_score": 0.7,
+          "relevance_score": 7.0
+        },
+        {
+          "id": "as_-1805806788250298106",
+          "app_name": "微信",
+          "author": "隔壁的老铁",
+          "content": "每次在折叠里删除好友都返回主页面，折叠列表人太多，删除好友找半天",
+          "original_text": "每次在折叠里删除好友都返回主页面，折叠列表人太多，删除好友找半天",
+          "rating": 3,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "在折叠列表中删除好友后应停留在当前列表，而不是返回主页面",
+          "pain_point_extracted": "在折叠列表中删除好友后应停留在当前列表，而不是返回主页面",
+          "sentiment_score": 0.7,
+          "relevance_score": 5.5
+        }
+      ],
+      "mention_count": 5,
+      "merged_from": [
+        "wechat_c010"
+      ],
+      "ai_solution": "AI可分析用户行为，智能识别重要消息并调整折叠策略，或提供个性化筛选与排序。",
+      "ai_description": "AI可分析用户行为，智能识别重要消息并调整折叠策略，或提供个性化筛选与排序。",
+      "ai_keywords": [
+        "折叠列表",
+        "消息筛选",
+        "智能排序",
+        "重要通知",
+        "交互优化"
+      ],
+      "ai_score": 5,
+      "user_voice": "希望微信不折叠快递银行卡消费信息",
+      "sample_count": 4,
+      "demand_tier": 2,
+      "demand_type": "体验问题",
+      "product_breakdown": {
+        "微信": 5
+      },
+      "sentiment_breakdown": {
+        "angry": 1,
+        "frustrated": 4
+      },
+      "cross_product_count": 1,
+      "final_score": 4.19,
+      "importance_score": 5.23,
+      "ai_relevance_score": 5,
+      "commonality_score": 2.08
+    },
+    {
+      "id": "wechat_demand_12",
+      "title": "微信支付存在乱扣费、手续费高及耗电耗流量问题",
+      "description": "用户在使用微信支付转账时，因手续费过高而希望降低或取消；同时，支付过程中出现无故扣费、数据消耗和电量消耗大的问题，需要优化。",
+      "stats_label": "用户实际提及4条 | AI介入可能性3/10",
+      "ai_intervention_type": "无关",
+      "user_pain_summary": "用户在使用微信支付转账时，因手续费过高而希望降低或取消；同时，支付过程中出现无故扣费、数据消耗和电量消耗大的问题，需要优化。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store",
+          "Google Play"
+        ],
+        "exact_match_count": 4,
+        "source_breakdown": {
+          "appstore": 3,
+          "googleplay": 1
+        },
+        "perspective_breakdown": {
+          "consumer": 4
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_8351416588191540609",
+          "app_name": "微信",
+          "author": "金山文档是垃圾",
+          "content": "转账利率你们扣的是真恶心还扣这么多，狗微信仗着店大欺客，从来没有那个银行手续费扣这么多，感觉被抹除吧 垃圾腾讯",
+          "original_text": "转账利率你们扣的是真恶心还扣这么多，狗微信仗着店大欺客，从来没有那个银行手续费扣这么多，感觉被抹除吧 垃圾腾讯",
+          "rating": 1,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信转账手续费应该降低或取消",
+          "pain_point_extracted": "微信转账手续费应该降低或取消",
+          "sentiment_score": 0.9,
+          "relevance_score": 6.0
+        },
+        {
+          "id": "as_4213744536748983863",
+          "app_name": "微信",
+          "author": "午夜伤感的带刺玫瑰",
+          "content": "微信支付花我钱 每天都会扣走 还有微信钱包 别人微信钱包都好几万上千万 我微信天天就几毛钱 微信信息别人天天能收到转账 我天天连个信息都没有 唯一的信息还是微信支付花我钱的信息",
+          "original_text": "微信支付花我钱 每天都会扣走 还有微信钱包 别人微信钱包都好几万上千万 我微信天天就几毛钱 微信信息别人天天能收到转账 我天天连个信息都没有 唯一的信息还是微信支付花我钱的信息",
+          "rating": 1,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信支付不应该无故扣费",
+          "pain_point_extracted": "微信支付不应该无故扣费",
+          "sentiment_score": 0.9,
+          "relevance_score": 6.0
+        },
+        {
+          "id": "gp_-7568444452517073538",
+          "app_name": "微信",
+          "author": "Tan Dennoro Y F",
+          "content": "too much data and electricity",
+          "original_text": "too much data and electricity",
+          "rating": 3,
+          "date": "2026-04-10",
+          "source_url": "https://play.google.com/store/apps/details?id=com.tencent.mm",
+          "source": "Google Play - 微信",
+          "relevance_note": "微信应该减少数据消耗和电量消耗",
+          "pain_point_extracted": "微信应该减少数据消耗和电量消耗",
+          "sentiment_score": 0.7,
+          "relevance_score": 3.0
+        },
+        {
+          "id": "as_2465622196823718632",
+          "app_name": "微信",
+          "author": "iPhone 13 pro.",
+          "content": "你这个软件咋回事 那个微信支付为啥一直在扣我钱 差评",
+          "original_text": "你这个软件咋回事 那个微信支付为啥一直在扣我钱 差评",
+          "rating": 5,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信支付不应该无故扣费，存在乱扣费问题",
+          "pain_point_extracted": "微信支付不应该无故扣费，存在乱扣费问题",
+          "sentiment_score": 0.9,
+          "relevance_score": 3.5
+        }
+      ],
+      "mention_count": 4,
+      "merged_from": [
+        "wechat_c012"
+      ],
+      "ai_solution": "AI可辅助分析扣费异常模式，但核心需产品策略调整。",
+      "ai_description": "AI可辅助分析扣费异常模式，但核心需产品策略调整。",
+      "ai_keywords": [
+        "微信支付",
+        "扣费",
+        "手续费",
+        "耗电",
+        "耗流量"
+      ],
+      "ai_score": 3,
+      "user_voice": "微信转账手续费应该降低或取消",
+      "sample_count": 4,
+      "demand_tier": 1,
+      "demand_type": "平台策略",
+      "product_breakdown": {
+        "微信": 4
+      },
+      "sentiment_breakdown": {
+        "angry": 3,
+        "frustrated": 1
+      },
+      "cross_product_count": 1,
+      "final_score": 3.94,
+      "importance_score": 5.55,
+      "ai_relevance_score": 3,
+      "commonality_score": 3.58
+    },
+    {
+      "id": "wechat_demand_13",
+      "title": "微信应该减少广告数量或提供广告屏蔽功能",
+      "description": "用户在浏览朋友圈时，频繁看到广告，希望减少广告数量或开启屏蔽功能，以提升使用体验。",
+      "stats_label": "用户实际提及8条 | AI介入可能性3/10",
+      "ai_intervention_type": "无关",
+      "user_pain_summary": "用户在浏览朋友圈时，频繁看到广告，希望减少广告数量或开启屏蔽功能，以提升使用体验。",
+      "priority": "P1",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store"
+        ],
+        "exact_match_count": 8,
+        "source_breakdown": {
+          "appstore": 8
+        },
+        "perspective_breakdown": {
+          "consumer": 8
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_1675901680842484303",
+          "app_name": "微信",
+          "author": "元☁️",
+          "content": "真不明白，硬是逼着用户更你那全是屎山代码又臃肿的新版本，不更新就不给用你们恶不恶心，兼你老木都没话说，一个垃圾软件一点兼容性都做不到，广告比你母的音冒还多，要不是大陆的网络环境限制着国民，这么劣质的垃圾软件拿什么和人家Telegram比",
+          "original_text": "真不明白，硬是逼着用户更你那全是屎山代码又臃肿的新版本，不更新就不给用你们恶不恶心，兼你老木都没话说，一个垃圾软件一点兼容性都做不到，广告比你母的音冒还多，要不是大陆的网络环境限制着国民，这么劣质的垃圾软件拿什么和人家Telegram比",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该减少广告数量",
+          "pain_point_extracted": "微信应该减少广告数量",
+          "sentiment_score": 0.7,
+          "relevance_score": 7.0
+        },
+        {
+          "id": "as_-3983815972231337778",
+          "app_name": "微信",
+          "author": "子木和wood",
+          "content": "真就是垃圾软件，没有云储存，手机就支持一个，文件是几天就过期的，导个数据导半天导不进去，占用内存还这么大，一堆垃圾广告。一分都不想给，吃相真是太难看了",
+          "original_text": "真就是垃圾软件，没有云储存，手机就支持一个，文件是几天就过期的，导个数据导半天导不进去，占用内存还这么大，一堆垃圾广告。一分都不想给，吃相真是太难看了",
+          "rating": 1,
+          "date": "2026-04-19",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该减少广告",
+          "pain_point_extracted": "微信应该减少广告",
+          "sentiment_score": 0.9,
+          "relevance_score": 6.0
+        },
+        {
+          "id": "as_-8479778795688325212",
+          "app_name": "微信",
+          "author": "个很小",
+          "content": "强行给用户喂狗屎，不吃都不行，本来的转账位置挺顺手，结果硬塞一个广告位",
+          "original_text": "强行给用户喂狗屎，不吃都不行，本来的转账位置挺顺手，结果硬塞一个广告位",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该移除转账页面的广告位",
+          "pain_point_extracted": "微信应该移除转账页面的广告位",
+          "sentiment_score": 0.9,
+          "relevance_score": 5.0
+        },
+        {
+          "id": "as_2825991566237912710",
+          "app_name": "微信",
+          "author": "哎鹏陪你鹏",
+          "content": "微信全部是推介诈骗的广告，缅北的官方合作APP",
+          "original_text": "微信全部是推介诈骗的广告，缅北的官方合作APP",
+          "rating": 1,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该加强广告审核，杜绝诈骗广告",
+          "pain_point_extracted": "微信应该加强广告审核，杜绝诈骗广告",
+          "sentiment_score": 0.9,
+          "relevance_score": 3.0
+        },
+        {
+          "id": "as_4603154830058766323",
+          "app_name": "微信",
+          "author": "Nice chow",
+          "content": "朋友圈太多广告商，微信这样下去只会吧路走窄！！！",
+          "original_text": "朋友圈太多广告商，微信这样下去只会吧路走窄！！！",
+          "rating": 1,
+          "date": "2026-04-18",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该减少朋友圈广告或提供更严格的广告过滤功能",
+          "pain_point_extracted": "微信应该减少朋友圈广告或提供更严格的广告过滤功能",
+          "sentiment_score": 0.9,
+          "relevance_score": 3.0
+        }
+      ],
+      "mention_count": 8,
+      "merged_from": [
+        "wechat_c007"
+      ],
+      "ai_solution": "AI可辅助审核广告内容，但减少广告数量属于商业决策，AI无法直接介入。",
+      "ai_description": "AI可辅助审核广告内容，但减少广告数量属于商业决策，AI无法直接介入。",
+      "ai_keywords": [
+        "广告",
+        "朋友圈",
+        "屏蔽",
+        "减少"
+      ],
+      "ai_score": 3,
+      "user_voice": "微信应该减少广告",
+      "sample_count": 5,
+      "demand_tier": 1,
+      "demand_type": "平台策略",
+      "product_breakdown": {
+        "微信": 8
+      },
+      "sentiment_breakdown": {
+        "angry": 5,
+        "frustrated": 3
+      },
+      "cross_product_count": 1,
+      "final_score": 3.89,
+      "importance_score": 6.88,
+      "ai_relevance_score": 3,
+      "commonality_score": 2.08
+    },
+    {
+      "id": "wechat_demand_14",
+      "title": "微信应该适配iOS系统键盘，避免视觉割裂",
+      "description": "在微信输入时，iOS系统键盘未适配，导致界面风格不统一，用户期望微信能原生支持iOS 26键盘，并保持小写默认显示，支持大小写切换，消除视觉割裂。",
+      "stats_label": "用户实际提及4条 | AI介入可能性3/10",
+      "ai_intervention_type": "无关",
+      "user_pain_summary": "在微信输入时，iOS系统键盘未适配，导致界面风格不统一，用户期望微信能原生支持iOS 26键盘，并保持小写默认显示，支持大小写切换，消除视觉割裂。",
+      "priority": "P2",
+      "cross_product_relevance": [
+        "wechat"
+      ],
+      "source_stats": {
+        "products_mentioned": [
+          "微信"
+        ],
+        "sources": [
+          "App Store"
+        ],
+        "exact_match_count": 4,
+        "source_breakdown": {
+          "appstore": 4
+        },
+        "perspective_breakdown": {
+          "consumer": 4
+        }
+      },
+      "evidence_samples": [
+        {
+          "id": "as_7391511754886845311",
+          "app_name": "微信",
+          "author": "‍莉柚",
+          "content": "为什么页面强制加小店卡包还关不掉，刷朋友圈还老有广告，你穷成这样了是吗？还有为什么17pm打开相机卡的粑粑一样，旧手机从来没卡过，能不能适配了，朋友圈修改功能也不出，天天加你的破广告强制在主页面卖你的破东西",
+          "original_text": "为什么页面强制加小店卡包还关不掉，刷朋友圈还老有广告，你穷成这样了是吗？还有为什么17pm打开相机卡的粑粑一样，旧手机从来没卡过，能不能适配了，朋友圈修改功能也不出，天天加你的破广告强制在主页面卖你的破东西",
+          "rating": 2,
+          "date": "2026-04-17",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "希望适配iPhone 17 Pro Max的相机性能",
+          "pain_point_extracted": "希望适配iPhone 17 Pro Max的相机性能",
+          "sentiment_score": 0.7,
+          "relevance_score": 8.5
+        },
+        {
+          "id": "as_-8739969449218016623",
+          "app_name": "微信",
+          "author": "要给五星好评才能用，臭不要脸",
+          "content": "iOS26更新了那么久了微信怎么还不适配新键盘",
+          "original_text": "iOS26更新了那么久了微信怎么还不适配新键盘",
+          "rating": 3,
+          "date": "2026-04-21",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "微信应该适配iOS26新键盘",
+          "pain_point_extracted": "微信应该适配iOS26新键盘",
+          "sentiment_score": 0.7,
+          "relevance_score": 3.0
+        },
+        {
+          "id": "as_4102405676556896893",
+          "app_name": "微信",
+          "author": "曹小杰子",
+          "content": "iOS26的键盘没有适配导致看上去特别割裂",
+          "original_text": "iOS26的键盘没有适配导致看上去特别割裂",
+          "rating": 4,
+          "date": "2026-04-19",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "iOS26的键盘应该适配微信，避免视觉割裂",
+          "pain_point_extracted": "iOS26的键盘应该适配微信，避免视觉割裂",
+          "sentiment_score": 0.7,
+          "relevance_score": 3.5
+        },
+        {
+          "id": "as_1477679850619786480",
+          "app_name": "微信",
+          "author": "saturnee",
+          "content": "希望中文键盘以小写形态展示 可以切换大写与小写",
+          "original_text": "希望中文键盘以小写形态展示 可以切换大写与小写",
+          "rating": 5,
+          "date": "2026-04-20",
+          "source_url": "https://apps.apple.com/cn/app/id414478124?see-all=reviews",
+          "source": "App Store - 微信",
+          "relevance_note": "中文键盘应该以小写形态展示，并支持切换大写与小写",
+          "pain_point_extracted": "中文键盘应该以小写形态展示，并支持切换大写与小写",
+          "sentiment_score": 0.3,
+          "relevance_score": 4.0
+        }
+      ],
+      "mention_count": 4,
+      "merged_from": [
+        "wechat_c013"
+      ],
+      "ai_solution": "AI可辅助检测键盘样式不一致问题，但主要需工程适配。",
+      "ai_description": "AI可辅助检测键盘样式不一致问题，但主要需工程适配。",
+      "ai_keywords": [
+        "iOS键盘",
+        "适配",
+        "视觉割裂",
+        "输入体验"
+      ],
+      "ai_score": 3,
+      "user_voice": "微信应该适配iOS26新键盘",
+      "sample_count": 4,
+      "demand_tier": 2,
+      "demand_type": "体验问题",
+      "product_breakdown": {
+        "微信": 4
+      },
+      "sentiment_breakdown": {
+        "frustrated": 3,
+        "suggesting": 1
+      },
+      "cross_product_count": 1,
+      "final_score": 3.04,
+      "importance_score": 4.06,
+      "ai_relevance_score": 3,
+      "commonality_score": 2.08
+    }
+  ]
+}
