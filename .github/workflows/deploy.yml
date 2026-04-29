@@ -1,0 +1,56 @@
+name: Deploy Dashboard to Pages
+
+# 纯前端部署：基于当前 repo 里的数据 JSON 构建 + 发布到 GitHub Pages
+# 不跑抓取/LLM 管线 —— 那个走 weekly-mining.yml
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'user-pain-dashboard/src/**'
+      - 'user-pain-dashboard/public/**'
+      - 'user-pain-dashboard/package.json'
+      - 'user-pain-dashboard/vite.config.ts'
+      - 'user-pain-dashboard/data/processed/*_ai_opportunities_consolidated.json'
+      - '.github/workflows/deploy.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: user-pain-dashboard
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+          cache-dependency-path: user-pain-dashboard/package-lock.json
+      - run: npm ci
+      - name: Build
+        env:
+          VITE_BASE: /${{ github.event.repository.name }}/
+        run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: user-pain-dashboard/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
